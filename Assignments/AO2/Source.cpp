@@ -17,7 +17,7 @@ using namespace std;
 int A[100];
 
 /*
-
+*  Creating a new data type Node.
 */
 struct Node
 {
@@ -29,7 +29,7 @@ struct Node
 		x = -1;
 		next = NULL;
 	}
-	//Creating a node with a int as data (x).
+	//Creating a node with a int as data (x). 
 	Node(int n)
 	{
 		x = n;
@@ -38,7 +38,7 @@ struct Node
 };
 
 /*
-
+*  List defines pointers and functions used in the list(s).
 */
 class List
 {
@@ -99,7 +99,7 @@ public:
 		Size++;
 	}
 	/**
-	*  Prints out the value that Tail points to in that list.
+	*  Prints out the value that Tail points to in that list to the screen.
 	*
 	*  @param {NULL}
 	*  @return {void}
@@ -116,11 +116,11 @@ public:
 	*/
 	string Print()
 	{
-		Node *Temp = Head;
+		Node *Temp = Head;		
 		string list;
 
 		while (Temp != NULL)
-		{
+		{	//Adds the data and arrow to the list each time.
 			list += to_string(Temp->x) + "->";
 			Temp = Temp->next;
 		}
