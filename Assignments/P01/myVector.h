@@ -6,9 +6,9 @@ using namespace std;
 //This sets up all of the necessary functions/data for the program.
 class myVector {
 private:
-	int *theVector;		//The Array(Vector) where we store data
-	int vSize = 0;			//The size of theVector will be
-	int Index = 0;		//A changhing tally of where to add/remove data
+	int *theVector;	//The Array(Vector) where we store data
+	int vSize = 0;	//The size of theVector will be
+	int Index = 0;	//A changhing tally of where to add/remove data
 	int OrSize = 0;	//Storage container for the original size of the vector
 public:
 	myVector(int size);
