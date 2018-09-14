@@ -151,7 +151,7 @@ int* myVector::MakeBig(int *a, int size) {
 
 /**
 *  Creates a new vector with less space that the old vector will be copied to.
-*  The new array will be .40 the size of the old vector.
+*  The new array will be .5 the size of the old vector.
 *
 *
 * @param {int *a} The vector that is being passed through.
