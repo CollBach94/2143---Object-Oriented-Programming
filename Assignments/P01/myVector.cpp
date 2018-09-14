@@ -54,7 +54,8 @@ void myVector::Push_Back(string Text) {
 *  Adds a number of values to the end of the vector.
 *
 *
-* @param {int val} The number of times values will be added to the end of a vector.
+* @param {int val} The number of times values will be 
+* added to the end of a vector.
 * @return {void}
 */
 void myVector::PushRand(int Number) {
