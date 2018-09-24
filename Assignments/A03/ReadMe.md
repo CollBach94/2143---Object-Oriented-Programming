@@ -1,6 +1,6 @@
-*Collin Bachman
-*September 28th, 2018
-*Class: 2143 OOP
+* Collin Bachman
+* September 28th, 2018
+* Class: 2143 OOP
 
 
 
