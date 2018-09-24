@@ -1,0 +1,20 @@
+Collin Bachman
+September 28th, 2018
+Class: 2143 OOP
+
+
+
+## Class
+## Object
+## Method
+## Abstraction
+## Encapsulation
+## Polymorphism
+## Overloading
+## Attributes / Properties
+## Class Variable
+## Instance Variable
+## Member Variable
+## Inheritance
+## Multiple Inheritance
+## Composition
