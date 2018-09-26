@@ -6,7 +6,7 @@
 
 
 ### Class
-* An abstract object type that is a collection of various data types. Individual representatives within the class are refered to as instances of a class.
+* An abstract object type that is a collection of various data types. Individual representatives within the class are refered to as *instances* of a class.
 ### Object
 ### Method
 ### Abstraction
@@ -19,7 +19,7 @@
 * For example, void Push (int x) and void Push (string name) has the same name, but calls a different function based on what data has been passed through.
 ### Attributes / Properties
 ### Class Variable
-* A variable that is shared by all instances within that class. In C++, it is a data type that is declared as *static.
+* A variable that is shared by all instances within that class. In C++, it is a data type that is declared as *static*.
 ### Instance Variable
 ### Member Variable
 ### Inheritance
