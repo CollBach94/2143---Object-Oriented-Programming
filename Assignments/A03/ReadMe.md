@@ -1,6 +1,7 @@
 * Collin Bachman
 * September 28th, 2018
 * Class: 2143 OOP
+
 ##Assignment 3 (A03)
 
 
@@ -12,6 +13,7 @@
 ### Abstraction
 * A problem solving technique where details are grouped up into a single concept. Thus this concept can be seen as a single object rather than multiple, with nonessential information being ignored.
 ### Encapsulation
+* A method of hiding information away in a structure. Comparable to hiding instance data within a class.
 ### Polymorphism
 * Classically, it means many forms. In Computer Science, it's meaning changes depending on who you ask. In Object-Oriented Programming, It refers to the ability of having one name (be it variable, function, etc.) taking on many different purposes. There are at least 4 different types of polymorphism; Overloading, Overriding, Polymorphic Variable, and Generics.
 ### Overloading
@@ -25,3 +27,4 @@
 ### Inheritance
 ### Multiple Inheritance
 ### Composition
+* An alternative to inheritance, this method treats user-defined object types as if they are a newly defined object.
