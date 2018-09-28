@@ -22,11 +22,15 @@
 * Also known as ad hoc polymorphism, Overlaoding describes situations where one function name has several different implementations depending on how that named function is called.
 * For example, void Push (int x) and void Push (string name) has the same name, but calls a different function based on what data has been passed through.
 ### Attributes / Properties
+* The exact definition seems to vary based on context.
+* A property can be changed syntactically in  a mannewr like a data field, yet operates internally, much like a method. It can be read as either an expression or as a value assignment.
+*  Properties seems to also refer to the various methods used within a class.
 ### Class Variable
 * A variable that is shared by all instances within that class. In C++, it is a data type that is declared as *static*.
 ### Instance Variable
 * Maintained by an instance, this represents the state of an object.
 ### Member Variable
+* A variable that is associated with specific objects. As such, they are accessable to all the associated objects.
 ### Inheritance
 * The property of objects where a class has an instance of having acces to data and method information. This information is found in a preciously defined class, and as such, does not to be restated again in order to be used. 
 ### Multiple Inheritance
