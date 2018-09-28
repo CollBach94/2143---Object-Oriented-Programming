@@ -9,7 +9,9 @@
 ### Class
 * An abstract object type that is a collection of various data types. Individual representatives within the class are refered to as *instances* of a class.
 ### Object
+* A keyword that is used for indicating the definition of a particular object type.
 ### Method
+* A function that is found within a class / object type. It works in a message-passing style.
 ### Abstraction
 * A problem solving technique where details are grouped up into a single concept. Thus this concept can be seen as a single object rather than multiple, with nonessential information being ignored.
 ### Encapsulation
@@ -23,8 +25,11 @@
 ### Class Variable
 * A variable that is shared by all instances within that class. In C++, it is a data type that is declared as *static*.
 ### Instance Variable
+* Maintained by an instance, this represents the state of an object.
 ### Member Variable
 ### Inheritance
+* The property of objects where a class has an instance of having acces to data and method information. This information is found in a preciously defined class, and as such, does not to be restated again in order to be used. 
 ### Multiple Inheritance
+* This allows for a subclass to inherit information from more than one immediate superclass. However, this is not supported by all object-oriented languages. 
 ### Composition
 * An alternative to inheritance, this method treats user-defined object types as if they are a newly defined object.
