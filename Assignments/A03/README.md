@@ -23,8 +23,8 @@
 * For example, void Push (int x) and void Push (string name) has the same name, but calls a different function based on what data has been passed through.
 ### Attributes / Properties
 * The exact definition seems to vary based on context.
-* A property can be changed syntactically in  a mannewr like a data field, yet operates internally, much like a method. It can be read as either an expression or as a value assignment.
-*  Properties seems to also refer to the various methods used within a class.
+1. A property can be changed syntactically in  a mannewr like a data field, yet operates internally, much like a method. It can be read as either an expression or as a value assignment.
+1.  Properties seems to also refer to the various methods used within a class.
 ### Class Variable
 * A variable that is shared by all instances within that class. In C++, it is a data type that is declared as *static*.
 ### Instance Variable
