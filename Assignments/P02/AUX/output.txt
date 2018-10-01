@@ -1,0 +1,28 @@
+8 1 2 3 4 5 
+adding 2 Vectors
+Printing v1...
+18 21 32 3 4 5 
+Printing v2...
+10 20 30 
+v1[2] should be 32. It is...
+32
+Subtracting v1 from v2
+v1[2] should be 2. It is...
+2
+reverting v1...
+Printing the multiplied v2 by 3
+30 60 90 
+Printing the multiplied v2 by v1
+540 1260 2880 
+v2[2] should now contain 100
+540 1260 100 
+Is v1 = v2?
+0
+Create v3, and make it equal to v2
+just for fun, does v3 = v2
+1
+Since v3 and v2 are equal, v3/v2 should be all 1s
+1 1 1 
+Now let's add v2 to the end of v3
+Now lets see the new v3
+1 1 1 1 1 1 
