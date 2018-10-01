@@ -94,7 +94,8 @@ public:
 	myVector operator-(const myVector& Rhs)
 	{
 		int size = 0;			//size for our loop
-								//check to see how much data there is in both vectors
+								//check to see how much data 
+								// there is in both vectors
 								//the smallest size will be used.
 		if (index <= Rhs.index) {
 			size = index;
@@ -157,7 +158,8 @@ public:
 	myVector operator*(const myVector& Rhs)
 	{
 		int size = 0;			//size for our loop
-								//check to see how much data there is in both vectors
+								//check to see how much data there is 
+								// in both vectors
 								//the smallest size will be used.
 		if (index <= Rhs.index) {
 			size = index;
@@ -193,7 +195,8 @@ public:
 	myVector operator/(const myVector& Rhs)
 	{
 		int size = 0;			//size for our loop
-								//check to see how much data there is in both vectors
+								//check to see how much data there is 
+								//in both vectors
 								//the smallest size will be used.
 		if (index <= Rhs.index) {
 			size = index;
