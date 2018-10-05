@@ -72,8 +72,6 @@ struct gameOfLife {
 	}
 };
 
-
-
 int main() {
 	//these two values will be used to modify elements in the 2d Array
 	//for purposes of Homework 4 only.
@@ -84,21 +82,21 @@ int main() {
 	Gol.frameCount = 0;
 	Gol.frameRate = 400000;	//Setting the requirements for how often 
 							// the screen will refresh. 
+
 	//NOTE: I had to set the frameRate really high in order to see any effect
 	//on my computer. Change frameRate before running just in case.
 							
-
 	while (Gol.Window.isOpen())
 	{
 		Event event;
-
 		while (Gol.Window.pollEvent(event))
 		{
 				if (event.type == Event::Closed) {
 					Gol.Window.close();
 				}
 			}
-		//Comparing frameCount to frameRate
+		//Comparing frameCount to frameRate.
+		//Update when these conditions are met.
 		if (Gol.frameCount % Gol.frameRate == 0) {
 			//For this homework only, change a cells color when prompted
 			Gol.World[TestR++][TestC].Rect.setFillColor(Color::Red);
@@ -114,11 +112,8 @@ int main() {
 					Gol.Window.close();
 				}
 			}
-
 		}
 		Gol.frameCount++;
-
 	}
-
 	return 0;
 }
